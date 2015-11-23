@@ -77,8 +77,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjOdin.deb
-Size: 1903248
-MD5sum: 6a6a0c63715d630d2ca5cfa37c369e29
+Size: 1903242
+MD5sum: 2ac81e7db5ab08cf762d27665cdaf6f5
 Description: cj's Odin Icons
 name: cj Odin
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjOdin/index.html
