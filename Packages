@@ -113,14 +113,14 @@ depiction: http://cj81499.github.io/depictions/com.jacopoiuytr.Mandolino/index.h
 author: jacopoiuytr <jacopocastagno@hotmail.it>
 
 Package: com.tokems.Glyphs
-Version: 1.15
+Version: 1.16
 Section: Themes (tokems)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
-Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
+Depends: winterboard, com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
-Size: 97766
-MD5sum: 1665cd36987b2014b0c1f5f7098231b7
+Size: 97776
+MD5sum: eb75bb712d7d8cb77686d3e3fc8a5366
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
