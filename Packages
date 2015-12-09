@@ -18,7 +18,7 @@ Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
-Filename: .//debs/com.cj81499.OriginalAnemone
+Filename: .//debs/com.cj81499.OriginalAnemone.deb
 Size: 46768
 MD5sum: 64a78c72a113f60e3c3fc759b6bc9b7f
 Description: Original Anemone Icon
