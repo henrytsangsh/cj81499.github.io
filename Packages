@@ -12,6 +12,20 @@ name: Barely Rounded Icon Mask
 depiction: http://cj81499.github.io/depictions/com.cj81499.BarelyRounded/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
+Package: com.cj81499.OriginalAnemone
+Version: 1.0
+Section: Themes (cj81499)
+Maintainer: cj81499 <cjMakesIcons@gmail.com>
+Depends: com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: .//debs/com.cj81499.OriginalAnemone
+Size: 46768
+MD5sum: 64a78c72a113f60e3c3fc759b6bc9b7f
+Description: Original Anemone Icon
+name: Original Anemone
+depiction: http://cj81499.github.io/depictions/com.cj81499.OriginalAnemone/index.html
+author: cj81499 <cjMakesIcons@gmail.com>
+
 Package: com.cj81499.PebbleStatus.OG
 Version: 0.4
 Section: Themes (cj81499)
