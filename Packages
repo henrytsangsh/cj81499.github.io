@@ -70,6 +70,20 @@ name: cj Glyphs
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjGlyphs/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
+Package: com.cj81499.cjLoader
+Version: 1.0
+Section: Themes (cj81499)
+Maintainer: cj81499 <cjMakesIcons@gmail.com>
+Depends: winterboard, firmware (>=8.0)
+Architecture: iphoneos-arm
+Filename: .//debs/com.cj81499.cjLoader.deb
+Size: 44002
+MD5sum: 20fbddfa8ea6cf956d41588ebe143571
+Description: cj's Loading Animations
+name: cj Loaders
+depiction: http://cj81499.github.io/depictions/com.cj81499.cjLoader/index.html
+author: cj81499 <cjMakesIcons@gmail.com>
+
 Package: com.cj81499.cjMandolino
 Version: 1.2
 Section: Themes (cj81499)
