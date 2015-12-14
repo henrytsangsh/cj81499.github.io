@@ -77,10 +77,10 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjLoader.deb
-Size: 44002
-MD5sum: 20fbddfa8ea6cf956d41588ebe143571
+Size: 44006
+MD5sum: 463971e32043f57586fb0885c4cc2e0e
 Description: cj's Loading Animations
-name: cj Loaders
+name: cj Loader
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjLoader/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
