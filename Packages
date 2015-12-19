@@ -147,8 +147,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
-Size: 102210
-MD5sum: 0cb7b5dcda8e041d2397072ccada058f
+Size: 97632
+MD5sum: a1e5e77814f64f16cac178a5d78d2a41
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
