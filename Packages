@@ -119,8 +119,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.highdetalio.SpaceBlueBerry.deb
-Size: 177706
-MD5sum: d3327e9fd00acfde92c4d69afdd63c89
+Size: 177080
+MD5sum: 308aeac15044fc2430b8f360869fcc2f
 Description: highdetalio's Space BlueBerry
 name: Space BlueBerry
 depiction: http://cj81499.github.io/depictions/com.highdetalio.SpaceBlueBerry/index.html
@@ -133,8 +133,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.jacopoiuytr.Mandolino.deb
-Size: 214828
-MD5sum: 05e48264fba323c338da2839cb530cdc
+Size: 214282
+MD5sum: a97ef44c11f3e35f88a5da49d6285e28
 Description: jacopoiuytr's Mandolino
 name: Mandolino
 depiction: http://cj81499.github.io/depictions/com.jacopoiuytr.Mandolino/index.html
