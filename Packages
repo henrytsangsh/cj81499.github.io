@@ -63,8 +63,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, com.tokems.Glyphs
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjGlyphs.deb
-Size: 129772
-MD5sum: 46a02dac83ba45c7abdd911438ba00c7
+Size: 644362
+MD5sum: 3bae77936fd294b644f3e50101d8c38d
 Description: cj's Glyphs
 name: cj Glyphs
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjGlyphs/index.html
@@ -147,8 +147,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
-Size: 154832
-MD5sum: eab28818542af4ee8e39f125a14e5bee
+Size: 129772
+MD5sum: 46a02dac83ba45c7abdd911438ba00c7
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
