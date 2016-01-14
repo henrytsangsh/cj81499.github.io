@@ -5,8 +5,8 @@ Home of [cjGlyphs](https://www.reddit.com/r/iOSthemes/comments/2r45jz/custom_gly
 
 &nbsp;
 
+Email - cjMakesIcons@gmail.com
+
 Reddit - [/u/cj81499](https://www.reddit.com/user/cj81499/)
 
 Twitter - [cjMakesIcons](https://twitter.com/cjMakesIcons)
-
-Email - (cjMakesIcons@gmail.com)
