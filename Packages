@@ -85,14 +85,14 @@ depiction: http://cj81499.github.io/depictions/com.cj81499.cjLoader/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.cjMandolino
-Version: 1.2
+Version: 1.3
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjMandolino.deb
-Size: 738702
-MD5sum: ad82fb77ea3249b76e01f1078ba56ca3
+Size: 5322
+MD5sum: bfc8c1ed7782fa1eb5c5a1b1569b7065
 Description: cj's Mandolino Icons
 name: cj Mandolino
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjMandolino/index.html
@@ -153,4 +153,3 @@ Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
 author: tokems <tokems.0@gmail.com>
-
