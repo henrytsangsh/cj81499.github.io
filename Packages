@@ -57,14 +57,14 @@ depiction: http://cj81499.github.io/depictions/com.cj81499.PebbleStatus.Time/ind
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.cjGlyphs
-Version: 1.37
+Version: 1.38
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, com.tokems.Glyphs
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjGlyphs.deb
-Size: 494264
-MD5sum: 2f0bba7eeff33442fc60163b1fb8d875
+Size: 495646
+MD5sum: e914f77095591f87a6d7b7f1e3a56e32
 Description: cj's Glyphs
 name: cj Glyphs
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjGlyphs/index.html
@@ -141,14 +141,14 @@ depiction: http://cj81499.github.io/depictions/com.jacopoiuytr.Mandolino/index.h
 author: jacopoiuytr <jacopocastagno@hotmail.it>
 
 Package: com.tokems.Glyphs
-Version: 1.19
+Version: 1.20
 Section: Themes (tokems)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
-Size: 129772
-MD5sum: 46a02dac83ba45c7abdd911438ba00c7
+Size: 131580
+MD5sum: 8a9acd18515cbec1e5e713dd3c54c2eb
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
