@@ -110,7 +110,6 @@ body.white {
   background: #efeff4
 }
 body {
-  width: 320px
 }
 @media screen and (max-device-width: 767px) {
   body {
