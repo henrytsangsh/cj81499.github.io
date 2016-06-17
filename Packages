@@ -148,7 +148,7 @@ Depends: winterboard, com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
 Size: 110228
-MD5sum: 6f896437e2bfd02639a7e66ad755b397
+MD5sum: 10add10e24a07f0e0986aac0f96675d4
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
