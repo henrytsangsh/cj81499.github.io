@@ -57,14 +57,14 @@ depiction: http://cj81499.github.io/depictions/com.cj81499.PebbleStatus.Time/ind
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.cjGlyphs
-Version: 1.46
+Version: 1.47
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, com.tokems.Glyphs
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjGlyphs.deb
-Size: 612698
-MD5sum: 40d6a49e8311703fd9f550e82e5b6ba2
+Size: 612744
+MD5sum: 7e9ea82528c4632525b231315e3644dc
 Description: cj's Glyphs
 name: cj Glyphs
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjGlyphs/index.html
