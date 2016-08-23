@@ -1,26 +1,26 @@
 Package: com.cj81499.BarelyRounded
-Version: 1.3
+Version: 1.4
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.BarelyRounded.deb
-Size: 17882
-MD5sum: f0a59064289bf802a4870d63e1efc18a
+Size: 10142
+MD5sum: a23176ebe7efbf8910e169e1fd3fc594
 Description: Barely Rounded Icon Mask
 name: Barely Rounded Icon Mask
 depiction: http://cj81499.github.io/depictions/com.cj81499.BarelyRounded/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.OriginalAnemone
-Version: 1.0
+Version: 1.1
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.OriginalAnemone.deb
-Size: 46768
-MD5sum: 64a78c72a113f60e3c3fc759b6bc9b7f
+Size: 44284
+MD5sum: 9cb4fea9af720084ad0437326f080791
 Description: Original Anemone Icon
 name: Original Anemone
 depiction: http://cj81499.github.io/depictions/com.cj81499.OriginalAnemone/index.html
@@ -63,92 +63,92 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, com.tokems.Glyphs
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjGlyphs.deb
-Size: 612744
-MD5sum: 7e9ea82528c4632525b231315e3644dc
+Size: 612940
+MD5sum: 9eca18bd5fdc4314be863af6126040d3
 Description: cj's Glyphs
 name: cj Glyphs
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjGlyphs/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.cjLoader
-Version: 1.0
+Version: 1.1
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjLoader.deb
-Size: 44006
-MD5sum: 463971e32043f57586fb0885c4cc2e0e
+Size: 36570
+MD5sum: caf4eb56fd1ab897270eddf7806e1d23
 Description: cj's Loading Animations
 name: cj Loader
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjLoader/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.cjMandolino
-Version: 1.4
+Version: 1.5
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjMandolino.deb
-Size: 5326
-MD5sum: bae2fd9b16c5b5d181ba611f25671e09
+Size: 5062
+MD5sum: f421f9984dffee4b8a79e5fa70740a4d
 Description: cj's Mandolino Icons
 name: cj Mandolino
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjMandolino/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.cj81499.cjOdin
-Version: 1.1
+Version: 1.2
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjOdin.deb
-Size: 1903242
-MD5sum: 2ac81e7db5ab08cf762d27665cdaf6f5
+Size: 1455896
+MD5sum: 1499c308b7805ce3d44baa2f9ec0241a
 Description: cj's Odin Icons
 name: cj Odin
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjOdin/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
 Package: com.highdetalio.SpaceBlueBerry
-Version: 1.7
+Version: 1.8
 Section: Themes (highdetalio)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.highdetalio.SpaceBlueBerry.deb
-Size: 177080
-MD5sum: 308aeac15044fc2430b8f360869fcc2f
+Size: 170664
+MD5sum: f1c280206990ab7059ba5f13093fec68
 Description: highdetalio's Space BlueBerry
 name: Space BlueBerry
 depiction: http://cj81499.github.io/depictions/com.highdetalio.SpaceBlueBerry/index.html
 author: highdetalio <gionata.bottari@gmail.com>
 
 Package: com.jacopoiuytr.Mandolino
-Version: 1.4
+Version: 1.5
 Section: Themes (jacopoiuytr)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles, firmware (>=8.0)
 Architecture: iphoneos-arm
 Filename: .//debs/com.jacopoiuytr.Mandolino.deb
-Size: 214282
-MD5sum: a97ef44c11f3e35f88a5da49d6285e28
+Size: 185796
+MD5sum: 01273b2e42451ae9351fee043cb5515b
 Description: jacopoiuytr's Mandolino
 name: Mandolino
 depiction: http://cj81499.github.io/depictions/com.jacopoiuytr.Mandolino/index.html
 author: jacopoiuytr <jacopocastagno@hotmail.it>
 
 Package: com.tokems.Glyphs
-Version: 1.24
+Version: 1.25
 Section: Themes (tokems)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: winterboard, com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
-Size: 110182
-MD5sum: b651a8c9d4584f34709fd62613555933
+Size: 110194
+MD5sum: ecdfcfa260991ea605a77a333c5ddd7f
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
