@@ -77,8 +77,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: com.anemonetheming.anemone | winterboard
 Architecture: iphoneos-arm
 Filename: .//debs/com.cj81499.cjLoader.deb
-Size: 36570
-MD5sum: caf4eb56fd1ab897270eddf7806e1d23
+Size: 36566
+MD5sum: 413c4e67638669c3632579f5ef449048
 Description: cj's Loading Animations
 name: cj Loader
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjLoader/index.html
@@ -147,8 +147,8 @@ Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: com.anemonetheming.anemone | com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Filename: .//debs/com.tokems.Glyphs.deb
-Size: 110194
-MD5sum: ecdfcfa260991ea605a77a333c5ddd7f
+Size: 110188
+MD5sum: 400be81d0c66e5dcd76e4b9642c17f11
 Description: tokems' Glyphs
 name: Glyphs
 depiction: http://cj81499.github.io/depictions/com.tokems.Glyphs/index.html
