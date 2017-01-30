@@ -26,13 +26,13 @@ name: cj Glyphs
 depiction: http://cj81499.github.io/depictions/com.cj81499.cjGlyphs/index.html
 author: cj81499 <cjMakesIcons@gmail.com>
 
-Package: com.cj81499.cjGlyphsGZIP
+Package: com.cj81499.cjGlyphsXZ
 Version: 1.0
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
 Depends: com.anemonetheming.anemone | com.codethemed.iconbundles, com.tokems.Glyphs
 Architecture: iphoneos-arm
-Filename: .//debs/com.cj81499.cjGlyphsGZIP.deb
+Filename: .//debs/com.cj81499.cjGlyphsXZ.deb
 Size: 673504
 MD5sum: c725a2deb043865acb5d18d119bc7357
 Description: cj's Glyphs
