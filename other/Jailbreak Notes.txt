@@ -1,0 +1,37 @@
+XXX General XXX
+
+  FIXME
+    Switch to -Zgzip instead of -Zlzma
+
+  NOTE Cydia ID - 465952240
+
+  NOTE Pre-Jailbreak Checklist
+    Make Unencrypted Backup
+    Turn Off Find My iPhone
+    Turn Off Auto Lock
+    Turn On Airplane Mode
+    Reset Network Settings
+    Jailbreak
+    Turn On Find My iPhone
+    Turn On Auto Lock 5 mins
+    Fix Wireless Settings
+
+XXX cjGlyphs XXX
+
+  TODO
+    Apple Home
+    Apple Activity - com.apple.Fitness
+    BetaVendor - com.matchstic.BetaVendor
+    CPDD Connect - com.cpdigitaldarkroom.Connect
+    Firefox - org.mozilla.ios.Firefox + org.mozilla.ios.Focus
+    Tidal - com.aspiro.TIDAL
+    Datpiff - com.datpiff.mobile
+
+  FIXME
+    United - com.united.UnitedCustomerFacingIPhone
+    Singapore Air - com.amadeus.sqmobile
+    GILT - com.gilt.gilt
+    Swype - com.nuance.swype.app
+    Settings Icons
+
+  CHANGED
