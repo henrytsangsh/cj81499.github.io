@@ -1,11 +1,3 @@
-TODO /u/jacie950
-TODO PUBG - com.tencent.ig
-TODO Nationwide - co.uk.Nationwide.MobileBanking
-TODO Fortnite - com.chairentertainment.Fortnite
-TODO ExpressVPN - com.expressvpn.iosvpn
-TODO Electra - org.coolstar.electra
-TODO CocoaTop - ru.domo.CocoaTop
-
 TODO Misc
 TODO Apple Home
 TODO Apple Activity - com.apple.Fitness
@@ -19,4 +11,5 @@ FIXME United - com.united.UnitedCustomerFacingIPhone
 FIXME Singapore Air - com.amadeus.sqmobile
 FIXME GILT - com.gilt.gilt
 FIXME Swype - com.nuance.swype.app
+
 FIXME Settings Icons
