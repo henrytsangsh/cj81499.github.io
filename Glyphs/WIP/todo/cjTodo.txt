@@ -1,5 +1,5 @@
 TODO Misc
-TODO Apple Home
+TODO Apple Home - com.apple.Home
 TODO Apple Activity - com.apple.Fitness
 TODO BetaVendor - com.matchstic.BetaVendor
 TODO CPDD Connect - com.cpdigitaldarkroom.Connect
