@@ -1,0 +1,14 @@
+FIXME Switch to -Zgzip instead of -Zlzma
+
+NOTE Cydia ID - 465952240
+
+NOTE Pre-Jailbreak Checklist
+Make Unencrypted Backup
+Turn Off Find My iPhone
+Turn Off Auto Lock
+Turn On Airplane Mode
+Reset Network Settings
+Jailbreak
+Turn On Find My iPhone
+Turn On Auto Lock 5 mins
+Fix Wireless Settings

@@ -1,0 +1,19 @@
+TODO PUBG - com.tencent.ig
+TODO Nationwide - co.uk.Nationwide.MobileBanking
+TODO Fortnite - com.chairentertainment.Fortnite
+TODO ExpressVPN - com.expressvpn.iosvpn
+TODO Electra - org.coolstar.electra
+TODO CocoaTop - ru.domo.CocoaTop
+TODO Apple Home
+TODO Apple Activity - com.apple.Fitness
+TODO BetaVendor - com.matchstic.BetaVendor
+TODO CPDD Connect - com.cpdigitaldarkroom.Connect
+TODO Firefox - org.mozilla.ios.Firefox + org.mozilla.ios.Focus
+TODO Tidal - com.aspiro.TIDAL
+TODO Datpiff - com.datpiff.mobile
+
+FIXME United - com.united.UnitedCustomerFacingIPhone
+FIXME Singapore Air - com.amadeus.sqmobile
+FIXME GILT - com.gilt.gilt
+FIXME Swype - com.nuance.swype.app
+FIXME Settings Icons
