@@ -1,15 +1,16 @@
-TODO Misc
-TODO Apple Home - com.apple.Home
-TODO Apple Activity - com.apple.Fitness
-TODO BetaVendor - com.matchstic.BetaVendor
-TODO CPDD Connect - com.cpdigitaldarkroom.Connect
-TODO Firefox - org.mozilla.ios.Firefox + org.mozilla.ios.Focus
-TODO Tidal - com.aspiro.TIDAL
-TODO Datpiff - com.datpiff.mobile
+TODO means a new icon
+FIXME means remaking an icon I'm unhappy with
 
-FIXME United - com.united.UnitedCustomerFacingIPhone
-FIXME Singapore Air - com.amadeus.sqmobile
-FIXME GILT - com.gilt.gilt
-FIXME Swype - com.nuance.swype.app
-
-FIXME Settings Icons
+/u/cj81499
+TODO  Apple Home     - com.apple.Home
+TODO  Apple Activity - com.apple.Fitness
+TODO  BetaVendor     - com.matchstic.BetaVendor
+TODO  CPDD Connect   - com.cpdigitaldarkroom.Connect
+TODO  Firefox        - org.mozilla.ios.Firefox + org.mozilla.ios.Focus
+TODO  Tidal          - com.aspiro.TIDAL
+TODO  Datpiff        - com.datpiff.mobile
+FIXME United         - com.united.UnitedCustomerFacingIPhone
+FIXME Singapore Air  - com.amadeus.sqmobile
+FIXME GILT           - com.gilt.gilt
+FIXME Swype          - com.nuance.swype.app
+FIXME Settings Icons (They look poopy)
