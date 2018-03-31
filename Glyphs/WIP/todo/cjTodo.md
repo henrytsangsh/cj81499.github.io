@@ -7,7 +7,6 @@
 ## ———— Current Progress ————
 
 ## /u/cj81499
-
 |          | App Name       | BundleID                              |
 | :------- | :------------- | :------------------------------------ |
 | TODO:    | Apple Home     | com.apple.Home                        |
@@ -22,7 +21,6 @@
 | FIXME:   | Settings Icons | n/a                                   |
 
 ## /u/Jacie950
-
 |          | App Name | BundleID      |
 | :------- | :------- | :------------ |
 | TODO:    | EE       | uk.co.ee.MyEE |
