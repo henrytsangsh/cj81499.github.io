@@ -6,29 +6,29 @@
 
 ## /u/cj81499
 
-TODO:  Apple Home     - com.apple.Home
+TODO: Apple Home - com.apple.Home
 
-TODO:  Apple Activity - com.apple.Fitness
+TODO: Apple Activity - com.apple.Fitness
 
-TODO:  BetaVendor     - com.matchstic.BetaVendor
+TODO: BetaVendor - com.matchstic.BetaVendor
 
-TODO:  CPDD Connect   - com.cpdigitaldarkroom.Connect
+TODO: CPDD Connect - com.cpdigitaldarkroom.Connect
 
-TODO:  Firefox        - org.mozilla.ios.Firefox
+TODO: Firefox - org.mozilla.ios.Firefox
 
-TODO:  Tidal          - com.aspiro.TIDAL
+TODO: Tidal - com.aspiro.TIDAL
 
-TODO:  Datpiff        - com.datpiff.mobile
+TODO: Datpiff - com.datpiff.mobile
 
-FIXME: United         - com.united.UnitedCustomerFacingIPhone
+FIXME: United - com.united.UnitedCustomerFacingIPhone
 
-FIXME: Singapore Air  - com.amadeus.sqmobile
+FIXME: Singapore Air - com.amadeus.sqmobile
 
-FIXME: GILT           - com.gilt.gilt
+FIXME: GILT - com.gilt.gilt
 
-FIXME: Swype          - com.nuance.swype.app
+FIXME: Swype - com.nuance.swype.app
 
-FIXME: Settings Icons (They look poopy)
+FIXME: Settings Icons
 
 &nbsp;
 
@@ -40,7 +40,7 @@ TODO: EE - uk.co.ee.MyEE
 
 ## /u/Kyrios9
 
-TODO: MinimaList  - com.davetech.todo
+TODO: MinimaList - com.davetech.todo
 
 TODO: Google keep - com.google.Keep
 
@@ -48,15 +48,15 @@ TODO: Google keep - com.google.Keep
 
 ## /u/Mikelightman
 
-TODO: Castro 2     - co.supertop.Castro-2
+TODO: Castro 2 - co.supertop.Castro - 2
 
-TODO: USAA         - com.usaa.UsaaMobile
+TODO: USAA - com.usaa.UsaaMobile
 
 TODO: Weather line - com.offcoast.weatherline
 
-TODO: Due          - com.phocusllp.due
+TODO: Due - com.phocusllp.due
 
-TODO: MLB at bat   - com.mlb.AtBatUniversal
+TODO: MLB at bat - com.mlb.AtBatUniversal
 
 &nbsp;
 
@@ -64,28 +64,26 @@ TODO: MLB at bat   - com.mlb.AtBatUniversal
 
 TODO: Pleco Chinese Dictionary - com.pleco.chinesesystem
 
-TODO: WordReference Dictionary - 
-com.wordreference.WordReferenceDictionary
+TODO: WordReference Dictionary - com.wordreference.WordReferenceDictionary
 
-TODO: Newsify RSS Reader       - com.synsion.Newsify
+TODO: Newsify RSS Reader - com.synsion.Newsify
 
-TODO: LinkedIn                 - com.linkedin.LinkedIn
+TODO: LinkedIn - com.linkedin.LinkedIn
 
-TODO: HSBC UK Mobile Banking   - 
-uk.co.hsbc.hsbcukmobilebanking
+TODO: HSBC UK Mobile Banking - uk.co.hsbc.hsbcukmobilebanking
 
-TODO: Cineworld Cinemas        - com.cineworldplc.appl
+TODO: Cineworld Cinemas - com.cineworldplc.appl
 
 &nbsp;
 
 ## /u/midnightchips
 
-TODO: LDS Music      - org.lds.ldsmusic
+TODO: LDS Music - org.lds.ldsmusic
 
-TODO: LDS Tools      - org.lds.ldstools
+TODO: LDS Tools - org.lds.ldstools
 
 TODO: Gospel Library - org.lds.gospelstudy
 
-TODO: PUBG Mobile    - com.tencent.ig
+TODO: PUBG Mobile - com.tencent.ig
 
-TODO: DUO Mobile     - com.duosecurity.DuoMobile
+TODO: DUO Mobile - com.duosecurity.DuoMobile
