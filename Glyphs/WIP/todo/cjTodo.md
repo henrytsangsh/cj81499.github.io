@@ -2,6 +2,8 @@
 
 **FIXME: Remake icon**
 
+**Anything above Current Progress line is done.**
+
 ## ———— Current Progress ————
 
 ## /u/cj81499
