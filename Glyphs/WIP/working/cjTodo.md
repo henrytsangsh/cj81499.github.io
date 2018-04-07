@@ -2,9 +2,11 @@
 
 ## Key
 
-### TODO: New icon**
+ TODO: New icon**
 
-### FIXME: Remake icon
+ FIXME: Remake icon
+
+ --App Name--: Skipped (various possible reasons)
 
 **Anything above Current Progress line is done.**
 
@@ -20,8 +22,6 @@
 | FIXME: | Singapore Air  | com.amadeus.sqmobile                  |
 | FIXME: | GILT           | com.gilt.gilt                         |
 | FIXME: | Swype          | com.nuance.swype.app                  |
-
-### ———— Current Progress ————
 
 ### /u/Jacie950
 
@@ -41,10 +41,12 @@
 |       | App Name     | BundleID                 |
 | :---- | :----------- | :----------------------- |
 | TODO: | Castro 2     | co.supertop.Castro-2     |
-| TODO: | USAA         | com.usaa.UsaaMobile      |
+| TODO: | ----USAA---- | com.usaa.UsaaMobile      |
 | TODO: | Weather Line | com.offcoast.weatherline |
 | TODO: | Due          | com.phocusllp.due        |
-| TODO: | MLB at bat   | com.mlb.AtBatUniversal   |
+| TODO: | -MLB at bat- | com.mlb.AtBatUniversal   |
+
+### ———— Current Progress ————
 
 ### /u/asoksevil
 
