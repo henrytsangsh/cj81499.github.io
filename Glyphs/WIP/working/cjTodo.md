@@ -46,8 +46,6 @@
 | TODO: | Due          | com.phocusllp.due        |
 | TODO: | -MLB at bat- | com.mlb.AtBatUniversal   |
 
-### ———— Current Progress ————
-
 ### /u/asoksevil
 
 |       | App Name                 | BundleID                                  |
@@ -58,6 +56,8 @@
 | TODO: | LinkedIn                 | com.linkedin.LinkedIn                     |
 | TODO: | HSBC UK Mobile Banking   | uk.co.hsbc.hsbcukmobilebanking            |
 | TODO: | Cineworld Cinemas        | com.cineworldplc.appl                     |
+
+### ———— Current Progress ————
 
 ### /u/midnightchips
 
