@@ -57,17 +57,16 @@
 | TODO: | HSBC UK Mobile Banking   | uk.co.hsbc.hsbcukmobilebanking            |
 | TODO: | Cineworld Cinemas        | com.cineworldplc.appl                     |
 
-### ———— Current Progress ————
-
 ### /u/midnightchips
 
-|       | App Name                 | BundleID                                  |
-| :---- | :----------------------- | :---------------------------------------- |
-| TODO: | LDS Music                | org.lds.ldsmusic                          |
-| TODO: | LDS Tools                | org.lds.ldstools                          |
-| TODO: | Gospel Library           | org.lds.gospelstudy                       |
-| TODO: | PUBG Mobile              | com.tencent.ig                            |
-| TODO: | DUO Mobile               | com.duosecurity.DuoMobile                 |
+|       | App Name                 | BundleID                  |
+| :---- | :----------------------- | :------------------------ |
+| TODO: | LDS Music                | org.lds.ldsmusic          |
+| TODO: | Gospel Library           | org.lds.gospelstudy       |
+| TODO: | PUBG Mobile              | com.tencent.ig            |
+| TODO: | DUO Mobile               | com.duosecurity.DuoMobile |
+
+### ———— Current Progress ————
 
 ### /u/cj81499
 
