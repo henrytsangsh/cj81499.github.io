@@ -98,6 +98,7 @@ body {
   -webkit-text-size-adjust: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  user-select: none;
   margin: 0 auto
 }
 body.white {
@@ -108,8 +109,6 @@ body.white {
 }
 .cytyle-flat body.pinstripe {
   background: #efeff4
-}
-body {
 }
 @media screen and (max-device-width: 767px) {
   body {
@@ -554,12 +553,10 @@ fieldset>a>div>div>label>p {
   font-weight: bold
 }
 fieldset>a>div>div>label.detail {
-  display: inline-block;
   float: right;
   text-align: right
 }
 fieldset>a>div>div>label.price {
-  display: inline-block;
   float: right;
   background-color: #2463de;
   -webkit-border-radius: 9px;
@@ -572,7 +569,6 @@ fieldset>a>div>div>label.price {
   margin: -0.2em -0.4em
 }
 fieldset>a>div>div>label.verbose {
-  display: inline-block;
   float: right;
   font-size: 10px;
   position: relative;
@@ -941,10 +937,12 @@ fieldset>textarea.right {
   color: #8e8e9f
 }
 fieldset>a.cytyle-up {
-  -webkit-transition: background 0.3s ease-in
+  -webkit-transition: background 0.3s ease-in;
+  transition: background 0.3s ease-in;
 }
 fieldset>a.cytyle-up p {
-  -webkit-transition: color 0.3s ease-in
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
 }
 fieldset>a.cytyle-dn label,
 fieldset>a.cytyle-dn span,
@@ -990,6 +988,7 @@ fieldset>a.cytyle-in span {
 .cytyle-flat fieldset>a.cytyle-dn img,
 .cytyle-flat fieldset>a.cytyle-in img {
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%)
 }
