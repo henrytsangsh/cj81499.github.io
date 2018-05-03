@@ -25,3 +25,4 @@
 | GILT                     | com.gilt.gilt                             | XX/XX/XX   |
 | Swype                    | com.nuance.swype.app                      | XX/XX/XX   |
 | Canvas                   | com.instructure.icanvas                   | 05/03/18   |
+| HQ                       | co.intermedialabs.hq                      | 05/03/18   |
