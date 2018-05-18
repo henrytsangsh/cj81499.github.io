@@ -1,9 +1,0 @@
-Origin: cj81499's BETA/TEST Repo
-Label: cj81499's BETA/TEST Repo
-Suite: stable
-Version: 1.0
-Codename: INSERTCODENAMEHERE
-Architectures: iphoneos-arm
-Components: main
-Description: cj81499's BETA/TEST
-Icon: file://CydiaIcon.png
