@@ -168,4 +168,6 @@ body {
   text-align: right;
   float: right;
   color: #8E8E9F;
+  width: calc(100% - 45px);
+  text-overflow: ellipsis;
 }

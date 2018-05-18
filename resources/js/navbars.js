@@ -7,12 +7,19 @@ document.addEventListener('DOMContentLoaded', function() {
   if ($navbarBurgers.length > 0) {
     // Add a click event on each of them
     $navbarBurgers.forEach(function($el) {
-      $el.addEventListener('click', function() {
-        // Get the target from the "data-target" attribute
-        const target = $el.dataset.target;
-        const $target = document.getElementById(target);
+      // Get the target from the "data-target" attribute
+      const $target = document.getElementById($el.dataset.target);
 
-        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+      // If target is main nav, add highlight
+      if ($target.id == 'mainNav') {
+        var bodyId = document.body.id.toString();
+        bodyId = bodyId.substring(0, bodyId.length - 5);
+        document.getElementById(bodyId).classList.add('is-active')
+      }
+
+      // Events on click
+      $el.addEventListener('click', function() {
+        // Toggle "navbar-burger" and "navbar-menu"
         $el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
       });
