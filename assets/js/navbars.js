@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
-    // Add a click event on each of them
+    // Make each of them function
     $navbarBurgers.forEach(function($el) {
       // Get the target from the "data-target" attribute
       const $target = document.getElementById($el.dataset.target);
@@ -17,8 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById(bodyId).classList.add('is-active')
       }
 
-      // Events on click
+      // Add a click event
       $el.addEventListener('click', function() {
+        // Toggle "navbar-burger" and "navbar-menu"
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+
+      $el.addEventListener('onfocus', function () {
         // Toggle "navbar-burger" and "navbar-menu"
         $el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
