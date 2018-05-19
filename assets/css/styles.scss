@@ -18,22 +18,22 @@ $primary-invert: $cj-blue-invert;
 $link: $cj-blue;
 $link-hover: $cj-green;
 
-// 4. Setup your Custom Colors
-$linkedin: #0077b5;
-$linkedin-invert: findColorInvert($linkedin);
-$twitter: #55acee;
-$twitter-invert: findColorInvert($twitter);
-$github: #333;
-$github-invert: findColorInvert($github);
+// // 4. Setup your Custom Colors
+// $linkedin: #0077b5;
+// $linkedin-invert: findColorInvert($linkedin);
+// $twitter: #55acee;
+// $twitter-invert: findColorInvert($twitter);
+// $github: #333;
+// $github-invert: findColorInvert($github);
 
-// 5. Add new color variables to the color map.
-@import "./bulma/sass/utilities/derived-variables";
-$addColors: (
-    "twitter":($twitter, $twitter-invert),
-    "linkedin": ($linkedin, $linkedin-invert),
-    "github": ($github, $github-invert)
-);
-$colors: map-merge($colors, $addColors);
+// // 5. Add new color variables to the color map.
+// @import "./bulma/sass/utilities/derived-variables";
+// $addColors: (
+//     "twitter":($twitter, $twitter-invert),
+//     "linkedin": ($linkedin, $linkedin-invert),
+//     "github": ($github, $github-invert)
+// );
+// $colors: map-merge($colors, $addColors);
 
 // 6. Import the rest of Bulma
 // @import "./_variables.scss";
