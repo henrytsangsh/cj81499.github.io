@@ -3,32 +3,32 @@
 <plist version="1.0">
 <dict>
 
-	<key>CalendarIconDateStyle</key>
-	<string>
-		font-size: 0px;
-	</string>
+    <key>CalendarIconDateStyle</key>
+    <string>
+        font-size: 0px;
+    </string>
 
-	<key>CalendarIconDayStyle</key>
-	<string>
-		font-size: 0px;
-	</string>
+    <key>CalendarIconDayStyle</key>
+    <string>
+        font-size: 0px;
+    </string>
 
-	<key>IB-MaskIcons</key>
-	<true/>
+    <key>IB-MaskIcons</key>
+    <true/>
 
-	<key>customclockicon</key>
-		<dict>
-			<key>blackDot</key>
-			<string>#FFFFFF</string>
-			<key>hours</key>
-			<string>#FFFFFF</string>
-			<key>minutes</key>
-			<string>#FFFFFF</string>
-			<key>seconds</key>
-			<string>#FFFFFF</string>
-			<key>redDot</key>
-			<string>#FFFFFF</string>
-		</dict>
+    <key>customclockicon</key>
+        <dict>
+            <key>blackDot</key>
+            <string>#FFFFFF</string>
+            <key>hours</key>
+            <string>#FFFFFF</string>
+            <key>minutes</key>
+            <string>#FFFFFF</string>
+            <key>seconds</key>
+            <string>#FFFFFF</string>
+            <key>redDot</key>
+            <string>#FFFFFF</string>
+        </dict>
 
 </dict>
 </plist>

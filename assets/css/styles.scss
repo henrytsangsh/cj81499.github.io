@@ -38,4 +38,4 @@ $colors: map-merge($colors, $addColors);
 // 6. Import the rest of Bulma
 // @import "./_variables.scss";
 @import "./bulma/bulma";
-// @import "./_overrides.scss";
+@import "./_overrides.scss";

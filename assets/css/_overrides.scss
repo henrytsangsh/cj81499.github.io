@@ -57,28 +57,19 @@
   box-shadow: none;
   border: 1px solid $border;
   background-color: darken($body-background-color, 1);
-  border-radius: $radius;
-
-  .card-image {
-    img {
-      border-radius: $radius $radius 0 0;
-    }
-  }
 
   .card-header {
     box-shadow: none;
-    background-color: darken($body-background-color, 3);
-    border-radius: $radius $radius 0 0;
+    // background-color: darken($body-background-color, 2);
+    border-bottom: 1px solid $border
   }
 
-  .card-footer {
-    background-color: darken($body-background-color, 3);
-  }
-
-  .card-footer,
-  .card-footer-item {
-    border-width: 1px;
-    border-color: $border;
+  .card-footer{
+    .card-footer-item {
+      a {
+        padding: 4px;
+      }
+    }
   }
 }
 

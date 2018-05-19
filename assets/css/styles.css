@@ -1,4 +1,5 @@
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -11079,4 +11080,364 @@ label.panel-block:hover {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
+}
+
+.section {
+  background-color: white;
+}
+
+.hero {
+  background-color: white;
+}
+
+.box {
+  background-color: whitesmoke;
+}
+
+.button.is-hovered, .button:hover {
+  background-color: #f7f7f7;
+}
+
+.button.is-white.is-hovered, .button.is-white:hover {
+  background-color: #f7f7f7;
+}
+
+.button.is-black.is-hovered, .button.is-black:hover {
+  background-color: #030303;
+}
+
+.button.is-light.is-hovered, .button.is-light:hover {
+  background-color: #ededed;
+}
+
+.button.is-dark.is-hovered, .button.is-dark:hover {
+  background-color: #2e2e2e;
+}
+
+.button.is-primary.is-hovered, .button.is-primary:hover {
+  background-color: #2791d9;
+}
+
+.button.is-link.is-hovered, .button.is-link:hover {
+  background-color: #2791d9;
+}
+
+.button.is-info.is-hovered, .button.is-info:hover {
+  background-color: #1295ed;
+}
+
+.button.is-success.is-hovered, .button.is-success:hover {
+  background-color: #21c45a;
+}
+
+.button.is-warning.is-hovered, .button.is-warning:hover {
+  background-color: #ffda47;
+}
+
+.button.is-danger.is-hovered, .button.is-danger:hover {
+  background-color: #ff2954;
+}
+
+.button.is-twitter.is-hovered, .button.is-twitter:hover {
+  background-color: #47a5ed;
+}
+
+.button.is-linkedin.is-hovered, .button.is-linkedin:hover {
+  background-color: #006da6;
+}
+
+.button.is-github.is-hovered, .button.is-github:hover {
+  background-color: #2b2b2b;
+}
+
+.button.is-loading:after {
+  border-color: transparent transparent #b5b5b5 #b5b5b5;
+}
+
+.label {
+  color: #dbdbdb;
+}
+
+.notification.is-white a:not(.button) {
+  color: #0a0a0a;
+  text-decoration: underline;
+}
+
+.notification.is-black a:not(.button) {
+  color: white;
+  text-decoration: underline;
+}
+
+.notification.is-light a:not(.button) {
+  color: #363636;
+  text-decoration: underline;
+}
+
+.notification.is-dark a:not(.button) {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.notification.is-primary a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-link a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-info a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-success a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-warning a:not(.button) {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: underline;
+}
+
+.notification.is-danger a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-twitter a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-linkedin a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification.is-github a:not(.button) {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.card {
+  box-shadow: none;
+  border: 1px solid #dbdbdb;
+  background-color: #fcfcfc;
+}
+
+.card .card-header {
+  box-shadow: none;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.card .card-footer .card-footer-item a {
+  padding: 4px;
+}
+
+.modal-card-body {
+  background-color: white;
+}
+
+.navbar.is-transparent {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar .navbar-menu {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-white .navbar-item,
+  .navbar.is-white .navbar-link {
+    color: #0a0a0a;
+  }
+  .navbar.is-white .navbar-item.is-active,
+  .navbar.is-white .navbar-link.is-active {
+    color: rgba(10, 10, 10, 0.7);
+  }
+  .navbar.is-white .navbar-burger span {
+    background-color: #0a0a0a;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-black .navbar-item,
+  .navbar.is-black .navbar-link {
+    color: white;
+  }
+  .navbar.is-black .navbar-item.is-active,
+  .navbar.is-black .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-black .navbar-burger span {
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-light .navbar-item,
+  .navbar.is-light .navbar-link {
+    color: #363636;
+  }
+  .navbar.is-light .navbar-item.is-active,
+  .navbar.is-light .navbar-link.is-active {
+    color: rgba(54, 54, 54, 0.7);
+  }
+  .navbar.is-light .navbar-burger span {
+    background-color: #363636;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-dark .navbar-item,
+  .navbar.is-dark .navbar-link {
+    color: whitesmoke;
+  }
+  .navbar.is-dark .navbar-item.is-active,
+  .navbar.is-dark .navbar-link.is-active {
+    color: rgba(245, 245, 245, 0.7);
+  }
+  .navbar.is-dark .navbar-burger span {
+    background-color: whitesmoke;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-primary .navbar-item,
+  .navbar.is-primary .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-primary .navbar-item.is-active,
+  .navbar.is-primary .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-primary .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-link .navbar-item,
+  .navbar.is-link .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-link .navbar-item.is-active,
+  .navbar.is-link .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-link .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-info .navbar-item,
+  .navbar.is-info .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-info .navbar-item.is-active,
+  .navbar.is-info .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-info .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-success .navbar-item,
+  .navbar.is-success .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-success .navbar-item.is-active,
+  .navbar.is-success .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-success .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-warning .navbar-item,
+  .navbar.is-warning .navbar-link {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .navbar.is-warning .navbar-item.is-active,
+  .navbar.is-warning .navbar-link.is-active {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .navbar.is-warning .navbar-burger span {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-danger .navbar-item,
+  .navbar.is-danger .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-danger .navbar-item.is-active,
+  .navbar.is-danger .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-danger .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-twitter .navbar-item,
+  .navbar.is-twitter .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-twitter .navbar-item.is-active,
+  .navbar.is-twitter .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-twitter .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-linkedin .navbar-item,
+  .navbar.is-linkedin .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-linkedin .navbar-item.is-active,
+  .navbar.is-linkedin .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-linkedin .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar.is-github .navbar-item,
+  .navbar.is-github .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-github .navbar-item.is-active,
+  .navbar.is-github .navbar-link.is-active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar.is-github .navbar-burger span {
+    background-color: #fff;
+  }
+}
+
+.hero .navbar .navbar-dropdown .navbar-item {
+  color: #dbdbdb;
+}
+
+.tabs.is-boxed li.is-active a {
+  background-color: whitesmoke;
 }
