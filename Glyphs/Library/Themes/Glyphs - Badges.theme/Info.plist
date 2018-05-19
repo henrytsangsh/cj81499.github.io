@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 
-	<key>CalendarIconDateSettings</key>
-		<dict>
-	    <key>FontSize</key>
+    <key>CalendarIconDateSettings</key>
+        <dict>
+        <key>FontSize</key>
       <integer>0</integer>
-	  </dict>
+      </dict>
 
-	<key>CalendarIconDaySettings</key>
-		<dict>
-			<key>FontSize</key>
-			<integer>0</integer>
-		</dict>
+    <key>CalendarIconDaySettings</key>
+        <dict>
+            <key>FontSize</key>
+            <integer>0</integer>
+        </dict>
 
-	<key>BadgeSettings</key>
-		<dict>
-			<key>FontSize</key>
+    <key>BadgeSettings</key>
+        <dict>
+            <key>FontSize</key>
       <real>0.1</real>
-		</dict>
+        </dict>
 
-		<key>IB-MaskIcons</key>
-			<false/>
+        <key>IB-MaskIcons</key>
+            <false/>
 
 </dict>
 </plist>

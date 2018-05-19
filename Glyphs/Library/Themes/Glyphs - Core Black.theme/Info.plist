@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 
-	<key>CalendarIconDateSettings</key>
-		<dict>
-	    <key>FontSize</key>
+    <key>CalendarIconDateSettings</key>
+        <dict>
+        <key>FontSize</key>
       <integer>0</integer>
-	  </dict>
+      </dict>
 
-	<key>CalendarIconDaySettings</key>
-		<dict>
-			<key>FontSize</key>
-			<integer>0</integer>
-		</dict>
+    <key>CalendarIconDaySettings</key>
+        <dict>
+            <key>FontSize</key>
+            <integer>0</integer>
+        </dict>
 
-		<key>IB-MaskIcons</key>
-			<false/>
+        <key>IB-MaskIcons</key>
+            <false/>
 
 </dict>
 </plist>

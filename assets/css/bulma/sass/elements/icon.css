@@ -1,0 +1,25 @@
+.icon {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon.is-small {
+  height: 1rem;
+  width: 1rem;
+}
+
+.icon.is-medium {
+  height: 2rem;
+  width: 2rem;
+}
+
+.icon.is-large {
+  height: 3rem;
+  width: 3rem;
+}
