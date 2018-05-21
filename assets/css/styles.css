@@ -10359,51 +10359,38 @@ label.panel-block:hover {
   background-color: whitesmoke;
 }
 
-.screenshot-container {
+div.screenshot-container {
+  margin: -20px;
   text-align: center;
+  min-width: 0px;
 }
 
-.screenshot-container .screenshots {
+div.screenshot-container div.screenshots {
+  width: 100%;
   display: inline-block;
-  margin: 0 auto;
   overflow-x: auto;
   white-space: nowrap;
-  font-size: 0;
 }
 
-.screenshot-container .screenshots a.screenshot:not(:last-child) {
-  margin-right: 4px;
-}
-
-.screenshot-container .screenshots a.screenshot img.screenshot-img {
+div.screenshot-container div.screenshots div.screenshot {
+  font-size: 12px;
   display: inline-block;
-  height: 300px;
   border: 1px solid #dbdbdb;
   padding: 1px;
 }
 
-@media screen and (min-width: 769px), print {
-  .screenshot-container .screenshots a.screenshot img.screenshot-img {
-    height: 350px;
-  }
+div.screenshot-container div.screenshots div.screenshot div.screenshot-label {
+  margin-top: -4px;
 }
 
-@media screen and (min-width: 1088px) {
-  .screenshot-container .screenshots a.screenshot img.screenshot-img {
-    height: 375px;
-  }
+div.screenshot-container div.screenshots div.screenshot div.screenshot-label p, div.screenshot-container div.screenshots div.screenshot div.screenshot-label a {
+  display: block;
 }
 
-@media screen and (min-width: 1280px) {
-  .screenshot-container .screenshots a.screenshot img.screenshot-img {
-    height: 400px;
-  }
-}
-
-@media screen and (min-width: 1472px) {
-  .screenshot-container .screenshots a.screenshot img.screenshot-img {
-    height: 450px;
-  }
+div.screenshot-container div.screenshots div.screenshot a.screenshot-img-link img.screenshot-img {
+  height: 50vw;
+  min-height: 300px;
+  max-height: 450px;
 }
 
 .hero {

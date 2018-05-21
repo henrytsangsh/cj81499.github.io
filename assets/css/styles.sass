@@ -43,30 +43,38 @@ $link-hover: $cj-green;
 $navbar-dropdown-item-hover-background-color: $primary;
 $nav-border: darken($primary, 10);
 
-.screenshot-container
+div.screenshot-container
+    margin: -20px
     text-align: center
-    .screenshots
+    min-width: 0px
+    div.screenshots
+        width: 100%
         display: inline-block
-        margin: 0 auto
         overflow-x: auto
         white-space: nowrap
-        font-size: 0
-        a.screenshot
-            &:not(:last-child)
-                margin-right: 4px
-            img.screenshot-img
-                display: inline-block
-                height: 300px
-                +tablet
-                    height: 350px
-                +desktop
-                    height: 375px
-                +widescreen
-                    height: 400px
-                +fullhd
-                    height: 450px
-                border: 1px solid $border
-                padding: 1px
+        div.screenshot
+            font-size: 12px
+            display: inline-block
+            border: 1px solid $border
+            padding: 1px
+            div.screenshot-label
+                margin-top: -4px
+                p, a
+                    display: block
+            a.screenshot-img-link
+                img.screenshot-img
+                    height: 50vw
+                    min-height: 300px
+                    max-height: 450px
+                    // height: 300px
+                    // +tablet
+                    //     height: 350px
+                    // +desktop
+                    //     height: 375px
+                    // +widescreen
+                    //     height: 400px
+                    // +fullhd
+                    //     height: 450px
 
 .hero
     border-bottom: 1px solid $nav-border

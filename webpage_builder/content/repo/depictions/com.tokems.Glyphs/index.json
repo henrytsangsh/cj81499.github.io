@@ -19,7 +19,8 @@
                     "header": "Screenshots",
                     "content": [
                         {
-                            "url": "./screenshots/1.png"
+                            "url": "./screenshots/1.png",
+                            "label": "<p>Personal Setup</p><a href=\"/contact.html\">cj81499</a>"
                         }
                     ]
                 }

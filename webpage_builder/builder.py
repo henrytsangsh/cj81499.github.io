@@ -12,7 +12,7 @@ def buildMain(inputPath, outputPath, templatePath):
         "screenshots": (templatePath / "screenshots.html").read_text()
     }
     makePages(inputPath, outputPath, templates)
-    print()
+    print("DONE", end="")
     # makePage(inputPath/"index.json", outputPath/"index.html", templates)
 
 
@@ -59,7 +59,8 @@ def makePage(inputPath, outputPath, templates):
                 screenshotsText = ""
                 for screenshot in card["content"]:
                     screenshotText = templates["screenshot"].replace(
-                        "{{url}}", screenshot["url"])
+                        "{{url}}", screenshot["url"]).replace(
+                        "{{label}}", screenshot["label"])
                     screenshotsText += screenshotText
                 columnsText += templates["column"].replace(
                     "{{card-header}}", card["header"]).replace("{{card-content}}", templates["screenshots"].replace("{{screenshots}}", screenshotsText))
