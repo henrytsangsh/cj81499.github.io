@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cj Home</title>
+    <title>cj</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#3498db">
 </head>
 
-<body id="home-page">
+<body id="cj-page">
     <section class="hero is-primary is-small">
         <div class="hero-head">
             <nav class="navbar">
@@ -44,15 +44,16 @@
                     </div>
                     <div id="mainNav" class="navbar-menu">
                         <div class="navbar-end">
-                            <a href="/" id="home" class="navbar-item">
-                                Home
-                            </a>
-                            <a href="/repo/" id="repo/" class="navbar-item">
-                                Repo
-                            </a>
-                            <a href="/contact.html" id="contact" class="navbar-item">
-                                Contact
-                            </a>
+                            <a href="/" id="home" class="navbar-item">Home</a>
+<a href="/contact.html" id="contact" class="navbar-item">Contact</a>
+<div class="navbar-item has-dropdown is-hoverable">
+<a href="/repo/" id=repo class="navbar-link">Repo</a>
+<div class="navbar-dropdown">
+<a id="help" class="navbar-item" href="/repo/help.html">Help</a>
+<a id="cjglyphs" class="navbar-item" href="/repo/depictions/com.cj81499.cjGlyphs/">cjGlyphs</a>
+<a id="glyphs" class="navbar-item" href="/repo/depictions/com.tokems.Glyphs/">Glyphs</a>
+</div>
+</div>
                         </div>
                     </div>
                 </div>
@@ -60,59 +61,37 @@
         </div>
         <div class="hero-body">
             <div class="container ">
-                <h1 class="title ">
-                    Welcome
-                </h1>
-                <p class="subtitle ">
-                    You made it!
-                </p>
+                <h1 class="title ">Welcome</h1>
             </div>
         </div>
     </section>
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="card ">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                Yo what's up
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            idk what to say
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                Repo
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            now located
-                            <a href="/repo/">here</a>.
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                Peep my cool logo
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-image">
-                                <img src="/assets/logo/cj.svg" width="100%" alt="cjLogo">
-                            </div>
-                            this is a placeholder
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="columns"><div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title">Yo what's up</div>
+        </div>
+        <div class="card-content">idk what to say</div>
+    </div>
+</div>
+<div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title">Repo</div>
+        </div>
+        <div class="card-content">now located <a href="/repo/"> here</a>.</div>
+    </div>
+</div>
+<div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title">Peep my cool logo</div>
+        </div>
+        <div class="card-content"><div class="card-image"><img src="/assets/logo/cj.svg" width="100%" alt="cjLogo"></div> this is a placeholder</div>
+    </div>
+</div>
+</div>
         </div>
     </section>
 </body>

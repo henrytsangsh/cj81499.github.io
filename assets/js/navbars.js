@@ -10,25 +10,28 @@ document.addEventListener('DOMContentLoaded', function() {
       // Get the target from the "data-target" attribute
       const $target = document.getElementById($el.dataset.target);
 
-      // If target is main nav, add highlight
-      if ($target.id == 'mainNav') {
-        var bodyId = document.body.id.toString();
-        bodyId = bodyId.substring(0, bodyId.length - 5);
-        document.getElementById(bodyId).classList.add('is-active')
+      // If target is main nav, try to add highlight
+      try {
+        if ($target.id == 'mainNav') {
+          var bodyId = document.body.id.toString();
+          bodyId = bodyId.substring(0, bodyId.length - 5);
+          console.log(bodyId);
+          document.getElementById(bodyId).classList.add('is-active');
+        }
+      } finally {
+        // Add a click event
+        $el.addEventListener('click', function() {
+          // Toggle "navbar-burger" and "navbar-menu"
+          $el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
       }
 
-      // Add a click event
-      $el.addEventListener('click', function() {
-        // Toggle "navbar-burger" and "navbar-menu"
-        $el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-      });
-
-      $el.addEventListener('onfocus', function () {
-        // Toggle "navbar-burger" and "navbar-menu"
-        $el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-      });
+      // $el.addEventListener('onfocus', function () {
+      //   // Toggle "navbar-burger" and "navbar-menu"
+      //   $el.classList.toggle('is-active');
+      //   $target.classList.toggle('is-active');
+      // });
     });
   }
 });

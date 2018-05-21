@@ -1,0 +1,25 @@
+{
+    "page": "cj",
+    "hero": {
+        "title": "Welcome",
+        "subtitle": null
+    },
+    "columns": [
+        {
+            "cards": [
+                {
+                    "header": "Yo what's up",
+                    "content": "idk what to say"
+                },
+                {
+                    "header": "Repo",
+                    "content": "now located <a href=\"/repo/\"> here</a>."
+                },
+                {
+                    "header": "Peep my cool logo",
+                    "content": "<div class=\"card-image\"><img src=\"/assets/logo/cj.svg\" width=\"100%\" alt=\"cjLogo\"></div> this is a placeholder"
+                }
+            ]
+        }
+    ]
+}

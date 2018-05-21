@@ -1,0 +1,29 @@
+{
+    "page": "Contact",
+    "hero": {
+        "title": "Let's Talk",
+        "subtitle": null
+    },
+    "columns": [
+        {
+            "cards": [
+                {
+                    "header": "<span><i class=\"fas fa-envelope\" data-fa-transform=\"shrink-6\" data-fa-mask=\"fas fa-circle\"></i> Email</span>",
+                    "content": "<a href=\"mailto:cjMakesIcons@gmail.com\">cjMakesIcons@gmail.com</a>"
+                },
+                {
+                    "header": "<span><i class=\"fab fa-reddit\"></i> Reddit</span>",
+                    "content": "<a href=\"https://www.reddit.com/user/cj81499/\">/u/cj81499</a>"
+                },
+                {
+                    "header": "<span><i class=\"fab fa-twitter\" data-fa-transform=\"shrink-6\" data-fa-mask=\"fas fa-circle\"></i> Twitter</span>",
+                    "content": "<a href=\"https://twitter.com/cjMakesIcons/\">@cjMakesIcons</a>"
+                },
+                {
+                    "header": "<span><i class=\"fab fa-github\"></i> Github</span>",
+                    "content": "<a href=\"https://github.com/cj81499/\">cj81499</a>"
+                }
+            ]
+        }
+    ]
+}

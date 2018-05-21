@@ -1,0 +1,40 @@
+{
+    "page": "cjGlyphs",
+    "hero": {
+        "title": "cjGlyphs",
+        "subtitle": "by cj81499"
+    },
+    "columns": [
+        {
+            "cards": [
+                {
+                    "header": "Info",
+                    "content": "<p>This theme was made by and is being hosted by cj81499.</p>\n<p><a href=\"https://www.reddit.com/r/iOSthemes/comments/2r45jz/custom_glyphsgotham_icons/\">Reddit Post</a></p>\n<p><a href=\"https://docs.google.com/document/d/1J-kl6YXp7kNIt1NaXjKfahUIaFV-T-N2SPfaSK5m4Ns/edit?pli=1\"> Icon Requests</a></p>\n<p>If you want to redistribute the icons, get permision first.</p>\n<p>If you post a setup using this pack, please mention me in the post. I'm\n<a href=\"https://www.reddit.com/user/cj81499/\">/u/cj81499</a> on Reddit and\n<a href=\"https://twitter.com/cjMakesIcons/\">@cjMakesIcons</a> on Twitter.</p>\n<p>Alternate icons have \"ALT\" after the @2x. When I make another style for an icon, it either replaces the default or becomes an ALT. I don't include new ALTs in the changelog. Remove the ALT after the @2x to use it instead of the default.</p>"
+                }
+            ]
+        },
+        {
+            "cards": [
+                {
+                    "header": "Screenshots",
+                    "content": [
+                        {
+                            "url": "./screenshots/1.png"
+                        },
+                        {
+                            "url": "./screenshots/2.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cards": [
+                {
+                    "header": "Changelog",
+                    "content": "<p>Version 1.48 (4/15/2017)</p><p>It's been a while. I hope the larger than normal number of icons somewhat makes up for that.</p><p>Added Settings Theme! (Needs revision)</p><p>Added Coolors, Euchre 3D, Bitmoji, uMagic, Bloons TD (4, 5, and Battles), Gboard, 2048, Infinity Loop, Eluo, Speedtest.net, Narwhal, Vainglory, Tunnelbear</p><p>Updated Netflix</p><br><p>Version 1.47 (8/22/2016)</p><p>Dependency changes. Should default to Anemone instead of Winterboard now.</p><br><p>Version 1.46 (8/17/2016)</p><p>Added Cut the Rope, Piano Tiles, Photoshop Mobile, Psych, Quizlet, Quizup, Road Trip 2, Union</p><br><p>Version 1.45 (8/11/2016)</p><p>Added Paper by 53, Enlight, Pokemon GO, Snapseed</p><br><p>Version 1.44 (6/6/2016)</p><p>Added Reddit, Dexter, Dolphin, Teal, New Scientist</p><p>Updated Apple Watch</p><br><p>Version 1.43 (4/6/2016)</p><p>Added Game 4 2, Fussball.de, Kicktipp, Flashscore, Multi-Year Weight Training, Quizduell, Spiegel Online, Spox, ComdirectBanking</p><p>Updated Clash Royale, iCleaner Pro, Passbook/Wallet (I was wrong about being happy. I think I am now though.)</p><br><p>Version 1.42 (3/19/2016)</p><p>Added Desmos, Discord, Plague Inc, Clash Royale, Puzzle Forge II</p><p>Updated AfterLight, Spark</p><br><p>Version 1.41 (3/6/2016)</p><p>Added Tinder ;)</p><br><p>Version 1.40 (3/6/2016)</p><p>Added TestFlight</p><p>Updated Passbook/Wallet (I'm finally happy with its icon. This one is here to stay.)</p><p>Fixed Info.plist issues</p><br><p>Version 1.39 (2/24/2016)</p><p>Added BiteSMS, Boom Beach, Submarine</p><p>Updated Uber, Tips</p><br><p>Version 1.38 (1/31/2016)</p><p>Updated Clock</p><br><p>Version 1.37 (1/28/2016)</p><p>Added ESPN, Hulu, Bank Of America, Xbox SmartGlass, Minecraft PE, Quick Books, Zenonia S, Sword of Chaos</p><br><p>Version 1.36 (1/10/2016)</p><p>Added Calendars by Readdle, Rhapsody, Star Wars: Commander, Practice+, Twitterrific, Mathletics Student, Creepy PastaWiki, Puffin Browser, Agape</p><p>Updated Tweetbot</p><br><p>Version 1.35 (12/26/2015)</p><p>Added Black Option (I haven't tested this much. Please report any issues.)</p><p>Added 19 new icons: AntRec, Terminal, Appster, JW Library, CloudBeats, Chunky Comic Reader, PDF Expert 5, Bundlr, MovieBox, Alto's Adventure, Screenshot Maker Pro, Glit, CVS Pharmacy, USAA, Venmo, Citi, Line, Viber, Camfrog</p><br><p>Version 1.34 (12/19/2015)</p><p>Added OnePassword, Google Calendar, Spark Email, Comet, Yelp</p><br><p>Version 1.33 (12/12/2015)</p><p>Added AppDrawer, Outlook, OneDrive, OneNote, GarageBand, Keynote, Steam, Flow, Infuse, PicsPlay</p><br><p>Version 1.32 (11/17/2015)</p><p>WB Calendar Fix</p><br><p>Version 1.31 (11/14/2015)</p><p>Added Geekbench, XE Currency, Khan Academy</p><p>WB Clock Fix</p><br><p>Version 1.30 (11/13/2015)</p><p>Added Filza, iStudent App, Wikipedia</p><p>Depiction Changes</p><br><p>Version 1.29 (11/12/2015)</p><p>Updated OpenTable, News</p><p>Added Swagbucks, Skype, Apple Store</p><br><p>Version 1.28 (11/1/2015)</p><p>Size Optimizations</p><br><p>Version 1.27 (10/31/15)</p><p>Massive Size Reduction (Removed Image Metadata)</p><br><p>Version 1.26 (10/31/15)</p><p>Activator Fix (Anemone only because Winterboard can't theme Activator)</p><br><p>Version 1.25 (10/29/15)</p><p>New Depiction</p><br><p>Version 1.24 (10/17/15)</p><p>Add iOS 9 Icons (News, Passbook/Wallet, iCloud Drive)</p><br><p>Versions 1.0 - 1.23 (1/2/15 - 10/17/15)</p><p><a href=\"https: //docs.google.com/document/d/1a9sFh57R0qCcLWptkqTExtX5jUo5bKrnTuuIwjSAhdA\">Older Changes</a></p>"
+                }
+            ]
+        }
+    ]
+}

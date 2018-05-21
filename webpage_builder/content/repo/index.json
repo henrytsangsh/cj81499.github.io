@@ -1,0 +1,17 @@
+{
+    "page": "Repo",
+    "hero": {
+        "title": "cjRepo",
+        "subtitle": "You made it!"
+    },
+    "columns": [
+        {
+            "cards": [
+                {
+                    "header": "<span><i class=\"fas fa-cube\" data-fa-transform=\"shrink-5\" data-fa-mask=\"fas fa-circle\"></i> Add to Cydia</span>",
+                    "content": "<a href=\"cydia://url/https://cydia.saurik.com/api/share#?source=https://cj81499.github.io/repo/\">Click Me!</a>"
+                }
+            ]
+        }
+    ]
+}

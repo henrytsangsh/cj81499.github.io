@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cj Contact</title>
+    <title>Contact</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -36,7 +36,7 @@
                         <a href="/" class="navbar-item">
                             <img src="/assets/logo/cj.svg" width="28px" alt="Logo">
                         </a>
-                        <span class="navbar-burger" data-target="mainNav">
+                        <span tabindex="0" class="navbar-burger" data-target="mainNav">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -44,15 +44,16 @@
                     </div>
                     <div id="mainNav" class="navbar-menu">
                         <div class="navbar-end">
-                            <a href="/" id="home" class="navbar-item">
-                                Home
-                            </a>
-                            <a href="/repo/" id="repo/" class="navbar-item">
-                                Repo
-                            </a>
-                            <a href="/contact.html" id="contact" class="navbar-item">
-                                Contact
-                            </a>
+                            <a href="/" id="home" class="navbar-item">Home</a>
+<a href="/contact.html" id="contact" class="navbar-item">Contact</a>
+<div class="navbar-item has-dropdown is-hoverable">
+<a href="/repo/" id=repo class="navbar-link">Repo</a>
+<div class="navbar-dropdown">
+<a id="help" class="navbar-item" href="/repo/help.html">Help</a>
+<a id="cjglyphs" class="navbar-item" href="/repo/depictions/com.cj81499.cjGlyphs/">cjGlyphs</a>
+<a id="glyphs" class="navbar-item" href="/repo/depictions/com.tokems.Glyphs/">Glyphs</a>
+</div>
+</div>
                         </div>
                     </div>
                 </div>
@@ -60,72 +61,45 @@
         </div>
         <div class="hero-body">
             <div class="container ">
-                <h1 class="title ">
-                    Let's Talk
-                </h1>
+                <h1 class="title ">Let's Talk</h1>
             </div>
         </div>
     </section>
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                <span>
-                                    <i class="fas fa-envelope" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i> Email
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <a href="mailto:cjMakesIcons@gmail.com">cjMakesIcons@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                <span>
-                                    <i class="fab fa-reddit"></i> Reddit
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <a href="https://www.reddit.com/user/cj81499/">/u/cj81499</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                <span>
-                                    <i class="fab fa-twitter" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i> Twitter
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <a href="https://twitter.com/cjMakesIcons/">@cjMakesIcons</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                <span>
-                                    <i class="fab fa-github"></i> Github
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <a href="https://github.com/cj81499/">cj81499</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="columns"><div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title"><span><i class="fas fa-envelope" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i> Email</span></div>
+        </div>
+        <div class="card-content"><a href="mailto:cjMakesIcons@gmail.com">cjMakesIcons@gmail.com</a></div>
+    </div>
+</div>
+<div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title"><span><i class="fab fa-reddit"></i> Reddit</span></div>
+        </div>
+        <div class="card-content"><a href="https://www.reddit.com/user/cj81499/">/u/cj81499</a></div>
+    </div>
+</div>
+<div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title"><span><i class="fab fa-twitter" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i> Twitter</span></div>
+        </div>
+        <div class="card-content"><a href="https://twitter.com/cjMakesIcons/">@cjMakesIcons</a></div>
+    </div>
+</div>
+<div class="column">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-title"><span><i class="fab fa-github"></i> Github</span></div>
+        </div>
+        <div class="card-content"><a href="https://github.com/cj81499/">cj81499</a></div>
+    </div>
+</div>
+</div>
         </div>
     </section>
 </body>

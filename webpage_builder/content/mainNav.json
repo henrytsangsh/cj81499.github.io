@@ -1,0 +1,31 @@
+{
+    "title": "Main Nav",
+    "items": [
+        {
+            "name": "Home",
+            "url": "/"
+        },
+        {
+            "name": "Contact",
+            "url": "/contact.html"
+        },
+        {
+            "name": "Repo",
+            "url": "/repo/",
+            "children": [
+                {
+                    "name": "Help",
+                    "url": "/repo/help.html"
+                },
+                {
+                    "name": "cjGlyphs",
+                    "url": "/repo/depictions/com.cj81499.cjGlyphs/"
+                },
+                {
+                    "name": "Glyphs",
+                    "url": "/repo/depictions/com.tokems.Glyphs/"
+                }
+            ]
+        }
+    ]
+}

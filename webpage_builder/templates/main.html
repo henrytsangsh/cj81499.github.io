@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Help</title>
+    <title>{{page}}</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#3498db">
 </head>
 
-<body id="help-page">
+<body id="{{page-lower}}-page">
     <section class="hero is-primary is-small">
         <div class="hero-head">
             <nav class="navbar">
@@ -44,16 +44,7 @@
                     </div>
                     <div id="mainNav" class="navbar-menu">
                         <div class="navbar-end">
-                            <a href="/" id="home" class="navbar-item">Home</a>
-<a href="/contact.html" id="contact" class="navbar-item">Contact</a>
-<div class="navbar-item has-dropdown is-hoverable">
-<a href="/repo/" id=repo class="navbar-link">Repo</a>
-<div class="navbar-dropdown">
-<a id="help" class="navbar-item" href="/repo/help.html">Help</a>
-<a id="cjglyphs" class="navbar-item" href="/repo/depictions/com.cj81499.cjGlyphs/">cjGlyphs</a>
-<a id="glyphs" class="navbar-item" href="/repo/depictions/com.tokems.Glyphs/">Glyphs</a>
-</div>
-</div>
+                            {{mainNav}}
                         </div>
                     </div>
                 </div>
@@ -61,42 +52,13 @@
         </div>
         <div class="hero-body">
             <div class="container ">
-                <h1 class="title ">Aw shit, something dun broke</h1>
+                <h1 class="title ">{{hero-title}}</h1>
             </div>
         </div>
     </section>
     <section class="section">
         <div class="container">
-            <div class="columns"><div class="column">
-    <div class="card">
-        <div class="card-header">
-            <div class="card-header-title">General Advice</div>
-        </div>
-        <div class="card-content"><p>Try reinstalling the theme and Winterboard/ Anemone.</p>
-<p>Check for updates.</p>
-<p>If you use Anemone, do not enable "WB Patch".</p>
-<p>If you use Winterboard enable "WB Patch" above all other themes or try Anemone if you still run into issues.
-</p>
-<p>Follow <a href="https://www.reddit.com/r/iOSthemes/comments/2rdwdp/me1_activator_icon0_how_to_theme_the_stubborn/?">this tutorial</a> for Activator to be themed.</p></div>
-    </div>
-</div>
-<div class="column">
-    <div class="card">
-        <div class="card-header">
-            <div class="card-header-title">Glyphs & cjGlyphs</div>
-        </div>
-        <div class="card-content"><p>Enable BOTH cjGlyphs and Glyphs.</p><p>Put cjGlyphs above Glyphs.</p></div>
-    </div>
-</div>
-</div><div class="columns"><div class="column">
-    <div class="card">
-        <div class="card-header">
-            <div class="card-header-title">If All Else Fails</div>
-        </div>
-        <div class="card-content"><p><a href="/contact.html">Contact Me</a></p></div>
-    </div>
-</div>
-</div>
+            {{columns-text}}
         </div>
     </section>
 </body>

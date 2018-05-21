@@ -1,0 +1,37 @@
+{
+    "page": "Glyphs",
+    "hero": {
+        "title": "Glyphs",
+        "subtitle": "by Tokems"
+    },
+    "columns": [
+        {
+            "cards": [
+                {
+                    "header": "Info",
+                    "content": "<p>This theme was made by tokems (<a href=\"http://tokemsaurus.tumblr.com/\">Blog</a>) and is being hosted by cj81499 (<a href=\"/contact.html\">Contact</a>).</p>\n<p>The icon theme is from tokems' website, the control center is from hoenir's repo, and the theme was updated to work with iOS 8+ by cj81499.</p>\n<p>A wallpaper for iPhone 5 or iPhone 6 is available at\"Library/Themes/Glyphs - iOS 8.theme/Wallpaper\".</p>\n<p>Contains a Polus compatible CC theme.</p>"
+                }
+            ]
+        },
+        {
+            "cards": [
+                {
+                    "header": "Screenshots",
+                    "content": [
+                        {
+                            "url": "./screenshots/1.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cards": [
+                {
+                    "header": "Changelog",
+                    "content": "<p>Version 1.27 (4/15/2017)</p>\n<p>Wallpaper</p>\n<br>\n<p>Version 1.26 (9/2/2016)</p>\n<p>Update Hide Icon Labels</p>\n<br>\n<p>Version 1.25 (8/22/2016)</p>\n<p>Dependency changes. Should default to Anemone instead of Winterboard now.</p>\n<br>\n<p>Version 1.24 (6/17/2016)</p>\n<p>Fix .DS_Store issue(?)</p>\n<br>\n<p>Version 1.23 (6/17/2016)</p>\n<p>Added Hide Icon Labels (Anemone Only)</p>\n<br>\n<p>Version 1.22 (3/17/2016)</p>\n<p>Updated iCleaner Pro</p>\n<br>\n<p>Version 1.21 (2/23/2016)</p>\n<p>Fixed some compatibility issues with older iOS versions</p>\n<br>\n<p>Version 1.20 (1/31/2016)</p>\n<p>Changed Clock</p>\n<br>\n<p>Version 1.19 (1/9/2016)</p>\n<p>Respring Logo is now it's own theme</p>\n<P>Size Optimizations (I forgot to optimize black version last time)</p>\n<br>\n<p>Version 1.18 (12/26/2015)</p>\n<p>Added Black Version (I haven't tested this much. Please report any issues.)</p>\n<br>\n<p>Version 1.17 (12/19/2015)</p>\n<p>Tweetbot 4 Icon</p>\n<br>\n<p>Version 1.16 (12/1/2015)</p>\n<p>Allow installation on any iOS version</p>\n<p>Please report bugs</p>\n<br>\n<p>Version 1.15 (11/17/2015)</p>\n<p>Winterboard Clock Fix</p>\n<br>\n<p>Version 1.14 (11/1/2015)</p>\n<p>Size Optimizations</p>\n<br>\n<p>Version 1.13 (10/31/15)</p>\n<p>Activator Fix (Anemone only. Winterboard can't theme Activator)</p>\n<br>\n<p>Version 1.12 (10/29/15)</p>\n<p>I'm not quite sure, but I know I changed something.</p>\n<br>\n<p>Version 1.11 (10/27/15)</p>\n<p>New Depiction</p>\n<p>Added Polus CC Theme</p>\n<br>\n<p>Version 1.10 (10/6/15)</p>\n<p>Fix Respring Logo for White Devices</p>\n<br>\n<p>Version 1.9 (9/28/15)</p>\n<p>Deb \"Depends\" line changes</p>\n<p>Depiction update</p>\n<br>\n<p>Version 1.8 (9/25/15)</p>\n<p>Winterboard Clock fixes (Requires Custom Clock Icon)</p>\n<br>\n<p>Version 1.7 (9/23/15)</p>\n<p>I Forgot to Make a Changlog</p>\n<p>Probably Mostly Icon Fixes</p>\n<p>*Shrugs*</p>\n<p>Winterboard Support</p>\n<br>\n<p>Version 1.3 (8/22/15)</p>\n<p>Icon and Badge Fixes</p>\n<br>\n<p>Version 1.2 (8/21/15)</p>\n<p>Added Control Center Theme</p>\n<br>\n<p>Version 1.1 (8/20/15)</p>\n<p>Icon Fixes</p>\n<br>\n<p>Version 1.0 (8/19/15)</p>\n<p>Initial Release</p>"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+// 1. Import the initial variables
+@import "./bulma/sass/utilities/initial-variables";
+@import "./bulma/sass/utilities/functions";
+
+// 2. Set your own initial variables
+// Add cj-blue
+$cj-blue: rgb(52, 152, 219);
+$cj-blue-invert: findColorInvert($blue);
+// Add cj-green
+$cj-green: rgb(26, 188, 156);
+$cj-green-invert: findColorInvert($cj-green);
+
+// 3. Set the derived variables
+$primary: $cj-blue;
+$primary-invert: $cj-blue-invert;
+// $primary: $cj-green;
+// $primary-invert: $cj-green-invert;
+$link: $cj-blue;
+$link-hover: $cj-green;
+
+// // 4. Setup your Custom Colors
+// $linkedin: #0077b5;
+// $linkedin-invert: findColorInvert($linkedin);
+// $twitter: #55acee;
+// $twitter-invert: findColorInvert($twitter);
+// $github: #333;
+// $github-invert: findColorInvert($github);
+
+// // 5. Add new color variables to the color map.
+// @import "./bulma/sass/utilities/derived-variables";
+// $addColors: (
+//     "twitter":($twitter, $twitter-invert),
+//     "linkedin": ($linkedin, $linkedin-invert),
+//     "github": ($github, $github-invert)
+// );
+// $colors: map-merge($colors, $addColors);
+
+// 6. Import the rest of Bulma
+// @import "./variables.scss";
+@import "./bulma/bulma";
+@import "./overrides.scss";
+
+$navbar-dropdown-item-hover-background-color: $primary;
+$nav-border: darken($primary, 10);
+
+.screenshot-container
+    text-align: center
+    .screenshots
+        display: inline-block
+        margin: 0 auto
+        overflow-x: auto
+        white-space: nowrap
+        font-size: 0
+        a.screenshot
+            &:not(:last-child)
+                margin-right: 4px
+            img.screenshot-img
+                display: inline-block
+                height: 300px
+                +tablet
+                    height: 350px
+                +desktop
+                    height: 375px
+                +widescreen
+                    height: 400px
+                +fullhd
+                    height: 450px
+                border: 1px solid $border
+                padding: 1px
+
+.hero
+    border-bottom: 1px solid $nav-border
+    .navbar
+        .navbar-item:hover:not(.is-hoverable), .is-active>.navbar-link, .is-hoverable:hover>.navbar-link
+                background-color: darken($primary, 6) !important
+        .is-active:not(.navbar-menu)
+            background-color: darken($primary, 4) !important
+        .is-active.navbar-menu
+            background-color: darken($primary, 2) !important
+        .navbar-item
+            color: $white
+
++desktop
+    .hero
+        .navbar
+            border-bottom: 1px solid $nav-border
+            .navbar-end, .navbar-brand
+                >.navbar-item
+                    border-right: 1px solid $nav-border
+                >.navbar-item:first-child
+                    border-left: 1px solid $nav-border
+            .navbar-link
+                &::after
+                    border-color: $nav-border
+                    border-color: $white
+            .navbar-dropdown
+                background-color: $primary
+                border: 1px solid $nav-border
+                margin-left: -1px;
+                min-width: calc(100% + 2px)
+                padding: 0
+                border-radius: 0
+                .navbar-item
+                    padding: 6px 10px

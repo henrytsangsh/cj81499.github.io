@@ -1,2 +1,4 @@
 assets/css/bulma/
 *.code-workspace
+webpage_builder/output
+.vscode/launch.json
