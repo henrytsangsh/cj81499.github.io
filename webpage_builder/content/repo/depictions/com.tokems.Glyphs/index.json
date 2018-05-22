@@ -19,8 +19,15 @@
                     "header": "Screenshots",
                     "content": [
                         {
-                            "url": "./screenshots/1.png",
-                            "label": "<p>Personal Setup</p><a href=\"/contact.html\">cj81499</a>"
+                            "src": "./screenshots/1.png",
+                            "setup": {
+                                "text": "Personal Setup",
+                                "url": null
+                            },
+                            "artist": {
+                                "text": "cj81499",
+                                "url": "/contact.html"
+                            }
                         }
                     ]
                 }

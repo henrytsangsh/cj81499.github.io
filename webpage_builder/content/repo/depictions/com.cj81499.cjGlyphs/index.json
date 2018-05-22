@@ -19,12 +19,26 @@
                     "header": "Screenshots",
                     "content": [
                         {
-                            "url": "./screenshots/1.png",
-                            "label": "<p>Personal Setup</p>\n<a href=\"/contact.html\">cj81499</a>"
+                            "src": "./screenshots/1.png",
+                            "setup": {
+                                "text": "Personal Setup",
+                                "url": null
+                            },
+                            "artist": {
+                                "text": "cj81499",
+                                "url": "/contact"
+                            }
                         },
                         {
-                            "url": "./screenshots/2.png",
-                            "label": "<a href=\"https://www.reddit.com/r/iOSthemes/comments/3yoc5m/setup_visionary_nsfw/\">Visionary Setup [NSFW]</a><a href=\"https://www.reddit.com/user/TruthandLogic\">TruthandLogic</a>"
+                            "src": "./screenshots/2.png",
+                            "setup": {
+                                "text": "Visionary Setup [NSFW]",
+                                "url": "https://www.reddit.com/r/iOSthemes/comments/3yoc5m/setup_visionary_nsfw/"
+                            },
+                            "artist": {
+                                "text": "TruthandLogic",
+                                "url": "https://www.reddit.com/user/TruthandLogic"
+                            }
                         }
                     ]
                 }

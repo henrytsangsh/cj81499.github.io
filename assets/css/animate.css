@@ -1,0 +1,96 @@
+.navbar-item.has-dropdown .navbar-link {
+  z-index: 1000;
+}
+
+.navbar-item.has-dropdown .navbar-dropdown {
+  z-index: 999;
+}
+
+@-webkit-keyframes cjInSlide {
+  from {
+    -webkit-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes cjInSlide {
+  from {
+    -webkit-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+.cjInSlide {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation: 0.5s cjInSlide cubic-bezier(0.75, 0, 0.25, 1);
+          animation: 0.5s cjInSlide cubic-bezier(0.75, 0, 0.25, 1);
+}
+
+@-webkit-keyframes cjInGrow {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, calc(-50%)) scale(0, 0);
+            transform: translate(0, calc(-50%)) scale(0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0) scale(1, 1);
+            transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+@keyframes cjInGrow {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, calc(-50%)) scale(0, 0);
+            transform: translate(0, calc(-50%)) scale(0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0) scale(1, 1);
+            transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+.cjInGrow {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation: 0.5s cjInGrow;
+          animation: 0.5s cjInGrow;
+}
+
+@-webkit-keyframes cjInStretch {
+  from {
+    -webkit-transform: translate(0, calc(-50%)) scale(1, 0);
+            transform: translate(0, calc(-50%)) scale(1, 0);
+  }
+  to {
+    -webkit-transform: translate(0, 0) scale(1, 1);
+            transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+@keyframes cjInStretch {
+  from {
+    -webkit-transform: translate(0, calc(-50%)) scale(1, 0);
+            transform: translate(0, calc(-50%)) scale(1, 0);
+  }
+  to {
+    -webkit-transform: translate(0, 0) scale(1, 1);
+            transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+.cjInStretch {
+  -webkit-animation: 0.5s cjInStretch;
+          animation: 0.5s cjInStretch;
+}

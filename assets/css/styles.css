@@ -10383,10 +10383,6 @@ div.screenshot-container div.screenshots div.screenshot div.screenshot-label {
   margin-top: -4px;
 }
 
-div.screenshot-container div.screenshots div.screenshot div.screenshot-label p, div.screenshot-container div.screenshots div.screenshot div.screenshot-label a {
-  display: block;
-}
-
 div.screenshot-container div.screenshots div.screenshot a.screenshot-img-link img.screenshot-img {
   height: 50vw;
   min-height: 300px;
@@ -10414,26 +10410,29 @@ div.screenshot-container div.screenshots div.screenshot a.screenshot-img-link im
 }
 
 @media screen and (min-width: 1088px) {
-  .hero .navbar {
+  .hero .navbar .navbar-end > .navbar-item:not(.has-dropdown), .hero .navbar .navbar-brand > .navbar-item:not(.has-dropdown) {
     border-bottom: 1px solid #217dbb;
+    border-right: 1px solid #217dbb;
   }
-  .hero .navbar .navbar-end > .navbar-item, .hero .navbar .navbar-brand > .navbar-item {
+  .hero .navbar .navbar-end > .navbar-item.has-dropdown .navbar-link, .hero .navbar .navbar-brand > .navbar-item.has-dropdown .navbar-link {
+    border-bottom: 1px solid #217dbb;
     border-right: 1px solid #217dbb;
   }
   .hero .navbar .navbar-end > .navbar-item:first-child, .hero .navbar .navbar-brand > .navbar-item:first-child {
     border-left: 1px solid #217dbb;
   }
   .hero .navbar .navbar-link::after {
-    border-color: #217dbb;
     border-color: white;
   }
   .hero .navbar .navbar-dropdown {
     background-color: #3498db;
     border: 1px solid #217dbb;
+    border-top: none;
     margin-left: -1px;
-    min-width: calc(100% + 2px);
+    min-width: calc(100% + 1px);
     padding: 0;
     border-radius: 0;
+    box-shadow: none;
   }
   .hero .navbar .navbar-dropdown .navbar-item {
     padding: 6px 10px;

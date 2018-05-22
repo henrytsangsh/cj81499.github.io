@@ -59,8 +59,6 @@ div.screenshot-container
             padding: 1px
             div.screenshot-label
                 margin-top: -4px
-                p, a
-                    display: block
             a.screenshot-img-link
                 img.screenshot-img
                     height: 50vw
@@ -80,7 +78,7 @@ div.screenshot-container
     border-bottom: 1px solid $nav-border
     .navbar
         .navbar-item:hover:not(.is-hoverable), .is-active>.navbar-link, .is-hoverable:hover>.navbar-link
-                background-color: darken($primary, 6) !important
+            background-color: darken($primary, 6) !important
         .is-active:not(.navbar-menu)
             background-color: darken($primary, 4) !important
         .is-active.navbar-menu
@@ -91,22 +89,27 @@ div.screenshot-container
 +desktop
     .hero
         .navbar
-            border-bottom: 1px solid $nav-border
             .navbar-end, .navbar-brand
-                >.navbar-item
+                >.navbar-item:not(.has-dropdown)
+                    border-bottom: 1px solid $nav-border
                     border-right: 1px solid $nav-border
+                >.navbar-item.has-dropdown
+                    .navbar-link
+                        border-bottom: 1px solid $nav-border
+                        border-right: 1px solid $nav-border
                 >.navbar-item:first-child
                     border-left: 1px solid $nav-border
             .navbar-link
                 &::after
-                    border-color: $nav-border
                     border-color: $white
             .navbar-dropdown
                 background-color: $primary
                 border: 1px solid $nav-border
+                border-top: none
                 margin-left: -1px;
-                min-width: calc(100% + 2px)
+                min-width: calc(100% + 1px)
                 padding: 0
                 border-radius: 0
+                box-shadow: none
                 .navbar-item
                     padding: 6px 10px

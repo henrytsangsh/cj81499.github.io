@@ -8,6 +8,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
 
     <!-- Scripts -->
     <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
@@ -44,7 +45,16 @@
                     </div>
                     <div id="mainNav" class="navbar-menu">
                         <div class="navbar-end">
-                            {{mainNav}}
+                            <a href="/" id="home" class="navbar-item">Home</a>
+                            <a href="/contact.html" id="contact" class="navbar-item">Contact</a>
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a href="/repo/" id=repo class="navbar-link">Repo</a>
+                                <div class="navbar-dropdown cjInSlide">
+                                    <a id="help" class="navbar-item" href="/repo/help.html">Help</a>
+                                    <a id="cjglyphs" class="navbar-item" href="/repo/depictions/com.cj81499.cjGlyphs/">cjGlyphs</a>
+                                    <a id="glyphs" class="navbar-item" href="/repo/depictions/com.tokems.Glyphs/">Glyphs</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
