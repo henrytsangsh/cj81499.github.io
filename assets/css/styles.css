@@ -10383,7 +10383,7 @@ div.screenshot-container div.screenshots div.screenshot div.screenshot-label {
   margin-top: -4px;
 }
 
-div.screenshot-container div.screenshots div.screenshot a.screenshot-img-link img.screenshot-img {
+div.screenshot-container div.screenshots div.screenshot img.screenshot-img {
   height: 50vw;
   min-height: 300px;
   max-height: 450px;
