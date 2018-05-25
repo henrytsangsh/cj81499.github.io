@@ -74,7 +74,7 @@ Package: com.cj81499.cjLoader
 Version: 1.1
 Section: Themes (cj81499)
 Maintainer: cj81499 <cjMakesIcons@gmail.com>
-Depends: com.anemonetheming.anemone | winterboard
+Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/com.cj81499.cjLoader.deb
 Size: 36566
