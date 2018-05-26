@@ -43,62 +43,115 @@ $link-hover: $cj-green;
 $navbar-dropdown-item-hover-background-color: $primary;
 $nav-border: darken($primary, 10);
 
-.screenshot-container
+div.screenshot-container
+    margin: -20px
     text-align: center
-    .screenshots
+    min-width: 0px
+    div.screenshots
+        width: 100%
         display: inline-block
-        margin: 0 auto
         overflow-x: auto
         white-space: nowrap
-        font-size: 0
-        a.screenshot
-            &:not(:last-child)
-                margin-right: 4px
+        div.screenshot
+            font-size: 12px
+            display: inline-block
+            border: 1px solid $border
+            padding: 1px
+            div.screenshot-label
+                margin-top: -4px
+            // a.screenshot-img-link
             img.screenshot-img
-                display: inline-block
-                height: 300px
-                +tablet
-                    height: 350px
-                +desktop
-                    height: 375px
-                +widescreen
-                    height: 400px
-                +fullhd
-                    height: 450px
-                border: 1px solid $border
-                padding: 1px
+                height: 50vw
+                min-height: 300px
+                max-height: 450px
+                    // height: 300px
+                    // +tablet
+                    //     height: 350px
+                    // +desktop
+                    //     height: 375px
+                    // +widescreen
+                    //     height: 400px
+                    // +fullhd
+                    //     height: 450px
 
 .hero
     border-bottom: 1px solid $nav-border
     .navbar
         .navbar-item:hover:not(.is-hoverable), .is-active>.navbar-link, .is-hoverable:hover>.navbar-link
-                background-color: darken($primary, 6) !important
-        .is-active:not(.navbar-menu)
-            background-color: darken($primary, 4) !important
-        .is-active.navbar-menu
-            background-color: darken($primary, 2) !important
+            background-color: darken($primary, 6) !important
         .navbar-item
             color: $white
 
 +desktop
     .hero
         .navbar
-            border-bottom: 1px solid $nav-border
+            .navbar-menu.is-active
             .navbar-end, .navbar-brand
-                >.navbar-item
+                >.navbar-item:not(.has-dropdown)
+                    border-bottom: 1px solid $nav-border
                     border-right: 1px solid $nav-border
+                >.navbar-item.has-dropdown
+                    .navbar-link
+                        z-index: 1;
+                        border-bottom: 1px solid $nav-border
+                        border-right: 1px solid $nav-border
+                    .navbar-dropdown
+                        z-index: 0;
                 >.navbar-item:first-child
                     border-left: 1px solid $nav-border
             .navbar-link
                 &::after
-                    border-color: $nav-border
                     border-color: $white
             .navbar-dropdown
                 background-color: $primary
                 border: 1px solid $nav-border
+                border-top: none
                 margin-left: -1px;
-                min-width: calc(100% + 2px)
+                min-width: calc(100% + 1px)
                 padding: 0
                 border-radius: 0
+                box-shadow: none
                 .navbar-item
                     padding: 6px 10px
+
++desktop
+    .navbar-item.has-dropdown
+        
+
+    @keyframes cjInSlide
+        from
+            transform: translate(0, -100%);
+        to
+            transform: translate(0, 0);
+
+    .cjInSlide
+        $duration: 0.5s;
+        animation-fill-mode: both;
+        $vert: 0;
+        $horiz: 0.75;
+        animation: $duration cjInSlide cubic-bezier($horiz,$vert,1 - $horiz,1 - $vert);
+
+
+    @keyframes cjInGrow
+        from
+            opacity: 0;
+            transform: translate(0, calc(-50%)) scale(0, 0);
+        to
+            opacity: 1;
+            transform: translate(0, 0) scale(1, 1);
+
+    .cjInGrow
+        $duration: 0.5s;
+        animation-fill-mode: both;
+        animation: $duration cjInGrow;
+
+    @keyframes cjInStretch
+        from
+            transform: translate(0, calc(-50%)) scale(1, 0);
+        to
+            transform: translate(0, 0) scale(1, 1);
+
+    .cjInStretch
+        $duration: 0.5s;
+        animation: $duration cjInStretch;
+

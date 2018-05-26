@@ -1,0 +1,62 @@
+.navbar-item.has-dropdown {
+  .navbar-link {
+    z-index: 1000;
+  }
+  .navbar-dropdown {
+    z-index: 999;
+  }
+}
+
+@keyframes cjInSlide {
+  from {
+    // opacity: 0;
+    transform: translate(0, -100%);
+  }
+
+  to {
+    // opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.cjInSlide {
+  $duration: 0.5s;
+  animation-fill-mode: both;
+  $vert: 0;
+  $horiz: 0.75;
+  animation: $duration cjInSlide cubic-bezier($horiz,$vert,1 - $horiz,1 - $vert);
+}
+
+
+@keyframes cjInGrow {
+  from {
+    opacity: 0;
+    transform: translate(0, calc(-50%)) scale(0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+.cjInGrow {
+  $duration: 0.5s;
+  animation-fill-mode: both;
+  animation: $duration cjInGrow;
+}
+
+@keyframes cjInStretch {
+  from {
+    transform: translate(0, calc(-50%)) scale(1, 0);
+  }
+
+  to {
+    transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+.cjInStretch {
+  $duration: 0.5s;
+  animation: $duration cjInStretch;
+}

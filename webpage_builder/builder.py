@@ -1,40 +1,21 @@
 import json
 from pathlib import Path
+import colorama
+colorama.init(autoreset=True)
+import traceback
+import os
+absPath = os.path.dirname(os.path.abspath(__file__))
 
 
 def buildMain(inputPath, outputPath, templatePath):
-    nav = buildNav(inputPath / "mainNav.json").strip()
-    # print(nav)
     templates = {
-        "main": (templatePath / "main.html").read_text().replace("{{mainNav}}", nav),
+        "main": (templatePath / "main.html").read_text(),
         "column": (templatePath / "column.html").read_text(),
         "screenshot": (templatePath / "screenshot.html").read_text(),
         "screenshots": (templatePath / "screenshots.html").read_text()
     }
     makePages(inputPath, outputPath, templates)
-    print()
-    # makePage(inputPath/"index.json", outputPath/"index.html", templates)
-
-
-def buildNav(navPath):
-    nav = ""
-    navJson = readJson(navPath)
-    # print(json.dumps(navJson, indent=4))
-    for item in navJson["items"]:
-        try:
-            children = item["children"]
-            nav += """\n<div class="navbar-item has-dropdown is-hoverable">\n<a href="{0}" id={1} class="navbar-link">{2}</a>\n<div class="navbar-dropdown">""".format(
-                item["url"], item["name"].lower(), item["name"])
-
-            for child in children:
-                nav += """\n<a id="{2}" class="navbar-item" href="{0}">{1}</a>""".format(
-                    child["url"], child["name"], child["name"].lower())
-
-            nav += """\n</div>\n</div>"""
-        except KeyError:
-            nav += """\n<a href="{0}" id="{1}" class="navbar-item">{2}</a>""".format(
-                item["url"], item["name"].lower(), item["name"])
-    return nav
+    print("DONE", end="")
 
 
 def readJson(path):
@@ -44,27 +25,35 @@ def readJson(path):
 
 def makePage(inputPath, outputPath, templates):
     fileJson = readJson(inputPath)
-    # if(inputPath.name == "index.json"):
-    #     print("index")
 
     columnsText = ""
     for column in fileJson["columns"]:
         # print(column)
         columnsText += """<div class="columns">"""
         for card in column["cards"]:
-            if type(card["content"]) == str:
-                columnsText += templates["column"].replace(
-                    "{{card-header}}", card["header"]).replace("{{card-content}}", card["content"])
-            elif type(card["content"]) == list:
+            if card["header"] == "Screenshots":
                 screenshotsText = ""
                 for screenshot in card["content"]:
-                    screenshotText = templates["screenshot"].replace(
-                        "{{url}}", screenshot["url"])
-                    screenshotsText += screenshotText
+                    screenText = templates["screenshot"].replace(
+                        "{{src}}", screenshot["src"])
+
+                    caption = ""
+                    captionJson = (screenshot["setup"], screenshot["artist"])
+                    for lineJson in captionJson:
+                        line = ""
+                        if lineJson["url"] != None:
+                            line += f"""<p><a href="{lineJson["url"]}">{lineJson["text"]}</a></p>\n"""
+                        else:
+                            line += f"""<p>{lineJson["text"]}</p>\n"""
+                        caption += line
+                    screenText = screenText.replace("{{caption}}", caption)
+
+                    screenshotsText += screenText
                 columnsText += templates["column"].replace(
                     "{{card-header}}", card["header"]).replace("{{card-content}}", templates["screenshots"].replace("{{screenshots}}", screenshotsText))
             else:
-                print(f"""\n{card["content"]}""")
+                columnsText += templates["column"].replace(
+                    "{{card-header}}", card["header"]).replace("{{card-content}}", card["content"])
         columnsText += "</div>"
 
     mainPage = templates["main"]
@@ -94,23 +83,28 @@ def makePages(inputPath, outputPath, templates):
     outputPath.mkdir(exist_ok=True)
     for filePath in inputPath.iterdir():
         if filePath.match("*.json") and filePath.stem != "mainNav":
+            outPath = outputPath / filePath.with_suffix(".html").name
             try:
-                outPath = outputPath/filePath.with_suffix(".html").name
                 makePage(filePath, outPath, templates)
-                print("SUCCESS: " + str(filePath.with_suffix(".html")))
-            except:
-                print("FAIL: " + str(filePath.with_suffix(".html")))
+                print(
+                    colorama.Fore.GREEN + colorama.Style.BRIGHT + "SUCCESS" +
+                    colorama.Style.RESET_ALL + ": " +
+                    str(outPath.relative_to(Path(absPath).parent))
+                )
+            except Exception:
+                print(
+                    colorama.Fore.RED + colorama.Style.BRIGHT + "FAILURE" +
+                    colorama.Style.RESET_ALL + ": " +
+                    str(outPath.relative_to(Path(absPath).parent)) + "\n" +
+                    traceback.format_exc().strip()
+                )
+
         elif filePath.is_dir() and filePath.name != "output":
             makePages(filePath, outputPath / filePath.name, templates)
 
 
-import os
-absPath = os.path.dirname(os.path.abspath(__file__))
-try:
-    buildMain(Path("./content"), Path("../"), Path("./templates"))
-except:
-    buildMain(
-        Path(absPath + "/content"),
-        Path(absPath + "/output"),
-        Path(absPath + "/templates")
-    )
+buildMain(
+    Path(absPath + "/content"),
+    Path(absPath).parent,
+    Path(absPath + "/templates")
+)

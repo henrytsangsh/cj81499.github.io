@@ -9,7 +9,7 @@
             "cards": [
                 {
                     "header": "Info",
-                    "content": "<p>This theme was made by and is being hosted by cj81499.</p>\n<p><a href=\"https://www.reddit.com/r/iOSthemes/comments/2r45jz/custom_glyphsgotham_icons/\">Reddit Post</a></p>\n<p><a href=\"https://docs.google.com/document/d/1J-kl6YXp7kNIt1NaXjKfahUIaFV-T-N2SPfaSK5m4Ns/edit?pli=1\"> Icon Requests</a></p>\n<p>If you want to redistribute the icons, get permision first.</p>\n<p>If you post a setup using this pack, please mention me in the post. I'm\n<a href=\"https://www.reddit.com/user/cj81499/\">/u/cj81499</a> on Reddit and\n<a href=\"https://twitter.com/cjMakesIcons/\">@cjMakesIcons</a> on Twitter.</p>\n<p>Alternate icons have \"ALT\" after the @2x. When I make another style for an icon, it either replaces the default or becomes an ALT. I don't include new ALTs in the changelog. Remove the ALT after the @2x to use it instead of the default.</p>"
+                    "content": "<p>This theme was made by and is being hosted by cj81499.</p>\n<p><a href=\"https://www.reddit.com/r/iOSthemes/comments/2r45jz/custom_glyphsgotham_icons/\">Reddit Post</a></p>\n<p><a href=\"https://docs.google.com/document/d/1J-kl6YXp7kNIt1NaXjKfahUIaFV-T-N2SPfaSK5m4Ns/edit?pli=1\"> Icon Requests</a></p>\n<p>If you want to redistribute the icons, get permision first.</p>\n<p>If you post a setup using this pack, please mention me in the post. I'm\n<a href=\"https://www.reddit.com/user/cj81499/\">/u/cj81499</a> on Reddit and\n<a href=\"https://twitter.com/cjMakesIcons/\">@cjMakesIcons</a> on Twitter.</p>\n<p>Alternate icons have \"ALT\" after the @2x. When I make another style for an icon, it either replaces the default or becomes an ALT. I don't include new ALTs in the changelog. Remove the ALT after the @2x to use it instead of the default.</p>\n<p>Enable BOTH cjGlyphs and Glyphs with cjGlyphs above Glyphs.</p>"
                 }
             ]
         },
@@ -19,10 +19,26 @@
                     "header": "Screenshots",
                     "content": [
                         {
-                            "url": "./screenshots/1.png"
+                            "src": "./screenshots/1.png",
+                            "setup": {
+                                "text": "Personal Setup",
+                                "url": null
+                            },
+                            "artist": {
+                                "text": "cj81499",
+                                "url": "/contact"
+                            }
                         },
                         {
-                            "url": "./screenshots/2.png"
+                            "src": "./screenshots/2.png",
+                            "setup": {
+                                "text": "Visionary Setup [NSFW]",
+                                "url": "https://www.reddit.com/r/iOSthemes/comments/3yoc5m/setup_visionary_nsfw/"
+                            },
+                            "artist": {
+                                "text": "TruthandLogic",
+                                "url": "https://www.reddit.com/user/TruthandLogic"
+                            }
                         }
                     ]
                 }
